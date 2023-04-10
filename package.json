@@ -1,0 +1,26 @@
+{
+  "name": "notes-server",
+  "version": "1.0.0",
+  "description": "Notes Server",
+  "main": "app.js",
+  "scripts": {
+    "chalja": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RJ2523/Notes-Server.git"
+  },
+  "keywords": [
+    "notes"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RJ2523/Notes-Server/issues"
+  },
+  "homepage": "https://github.com/RJ2523/Notes-Server#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "uuid": "^9.0.0"
+  }
+}
