@@ -4,7 +4,7 @@ const express = require('express');
 
 const server = express();
 
-const notesRouter = require('./api/notes');
+const notesRouter = require('./api/notes-api');
 
 server.use('/notes', notesRouter);
 
